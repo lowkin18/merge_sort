@@ -1,16 +1,35 @@
 
-
+/**
+ * @file merge_sort_test.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2019-01-29
+ * 
+ * @copyright Copyright (c) 2019
+ * 
+ */
 #include "merge_sort.h"
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
 
+#pragma comment(linker, "/STACK:2000000")
+#pragma comment(linker, "/HEAP:2000000")
+
 
 #define ARR_SIZE 10
 int arrVal[ARR_SIZE];
 
+
 int test_merge_sort(int arr[],int start,int end);
 
+
+/**
+ * @brief 
+ * 
+ * @return int 
+ */
 int main()
 {
 srand(time(NULL));
@@ -35,6 +54,15 @@ for(int i = 0; i<ARR_SIZE; i++)
     }
 
 }
+
+/**
+ * @brief 
+ * 
+ * @param arr 
+ * @param start 
+ * @param end 
+ * @return int 
+ */
 int test_merge_sort(int arr[],int start,int end)
 {
 

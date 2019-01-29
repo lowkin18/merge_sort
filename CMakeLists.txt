@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(merge_sort_test VERSION 0.1.0)
-message("PROJECT_SOURCE_DIR points to " ${PROJECT_SOURCE_DIR})
 include_directories ("${PROJECT_SOURCE_DIR}/include")
 message(${PROJECT_SOURCE_DIR})
 set(CMAKE_C_COMPILER "C:\\MinGW\\bin\\gcc.exe")
