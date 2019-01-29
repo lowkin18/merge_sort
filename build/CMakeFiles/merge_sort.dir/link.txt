@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libmerge_sort.a  CMakeFiles/merge_sort.dir/src/merge_sort.c.obj
+C:\MinGW\bin\ranlib.exe libmerge_sort.a

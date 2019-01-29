@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/merge_sort.h
+
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/test/merge_sort_test.c
+merge_sort.h
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/test/merge_sort.h
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+
