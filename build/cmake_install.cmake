@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort
+# Install script for directory: C:/Users/kipke/Desktop/Programming/merge_sort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
