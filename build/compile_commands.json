@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/kipke/Desktop/Programming/merge_sort/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/merge_sort.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\merge_sort.dir\\src\\merge_sort.c.obj   -c C:\\Users\\kipke\\Desktop\\Programming\\merge_sort\\src\\merge_sort.c",
-  "file": "C:/Users/kipke/Desktop/Programming/merge_sort/src/merge_sort.c"
+  "directory": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/merge_sort.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\merge_sort.dir\\src\\merge_sort.c.obj   -c C:\\Users\\kipke\\OneDrive\\Documents\\Programming\\C_PROJECTS\\merge_sort\\src\\merge_sort.c",
+  "file": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/src/merge_sort.c"
 },
 {
-  "directory": "C:/Users/kipke/Desktop/Programming/merge_sort/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/merge_sort_test.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\merge_sort_test.dir\\test\\merge_sort_test.c.obj   -c C:\\Users\\kipke\\Desktop\\Programming\\merge_sort\\test\\merge_sort_test.c",
-  "file": "C:/Users/kipke/Desktop/Programming/merge_sort/test/merge_sort_test.c"
+  "directory": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/merge_sort_test.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\merge_sort_test.dir\\test\\merge_sort_test.c.obj   -c C:\\Users\\kipke\\OneDrive\\Documents\\Programming\\C_PROJECTS\\merge_sort\\test\\merge_sort_test.c",
+  "file": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/test/merge_sort_test.c"
 }
 ]

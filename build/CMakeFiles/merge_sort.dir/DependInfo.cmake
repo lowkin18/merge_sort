@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/kipke/Desktop/Programming/merge_sort/src/merge_sort.c" "C:/Users/kipke/Desktop/Programming/merge_sort/build/CMakeFiles/merge_sort.dir/src/merge_sort.c.obj"
+  "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/src/merge_sort.c" "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/merge_sort/build/CMakeFiles/merge_sort.dir/src/merge_sort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

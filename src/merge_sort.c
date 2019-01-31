@@ -24,13 +24,13 @@
 int merge_sort(int arr[], int left, int right)
 {
 // need to divide array into smaller arrays
-    if(right==left)return 0;
+    if(left<right)
+    {
     int middle = (left + right)/2;
-    if(merge_sort(arr,left,middle))return 0;
-    if(merge_sort(arr,middle+1,right))return 0;
-    if(merge(arr,left,middle,right))return 0;
-
-    return 1;
+    merge_sort(arr,left,middle);
+    merge_sort(arr,middle+1,right);
+    merge(arr,left,middle,right);
+    }
 }
 
 /**
@@ -48,8 +48,8 @@ int merge(int arr[],int left,int middle, int right)
     int left_size = middle-left+1;
     int right_size = right-middle;
 
-    int temp_array_left[left_size];
-    int temp_array_right[right_size];
+    int temp_array_left[ARR_SIZE/2];
+    int temp_array_right[ARR_SIZE/2];
 
     //put values in the temp arrays
     for(int i = 0; i+left<middle+1;i++)
@@ -61,28 +61,44 @@ int merge(int arr[],int left,int middle, int right)
         temp_array_right[k] = arr[k+middle+1];
     }
 
-    int length_left = middle-left+1;
-    int length_right = right-middle;
+    //SOME VARIABLES TO MAKE SURE THE PLACEMENT IS CORRECT
+
     int arr_index = left;
-    for(int j = 0; j<length_left;j++)
+    int left_count = 0;
+    int right_count = 0;
+
+
+    //COMPARE WHICH ONE IS LOWER THEN PLACE INTO ARRAY ACCORDINGLY
+    while(left_count < left_size && right_count < right_size)
     {
-        for(int m = 0; m <length_right;m++)
-        {
-            if(temp_array_right[j+left]>temp_array_left[m+middle+1])
+        if(temp_array_left[left_count]>temp_array_right[right_count])
             {
-                arr[arr_index]=temp_array_left[m+middle+1];
-                arr_index++;
+                arr[arr_index]=temp_array_right[right_count];
+                right_count++;
             }
             else
             {
-                arr[arr_index]=temp_array_right[j+left];
-                arr_index++;
-                break;
+                arr[arr_index]=temp_array_left[left_count];
+                left_count++;
             }
-            
-        }
+            arr_index++;
+    }
+
+    //ONE ARRAY STILL HAS VALUES LEFT CHECK WHICH ONE THEN PUT THEM INTO ARRAY
+    while(left_count < left_size)
+    {
+        arr[arr_index]=temp_array_left[left_count];
+        arr_index++;
+        left_count++;
+    }
+
+    while(right_count < right_size)
+    {
+        arr[arr_index]=temp_array_right[right_count];
+        arr_index++;
+        right_count++;
 
     }
-    
+
     return 0;
 }

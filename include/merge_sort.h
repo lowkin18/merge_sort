@@ -2,8 +2,7 @@
 
 
 
-
-#define N 100
+#define ARR_SIZE 1000
 #define SWAP(a,b) (a)^=(b)^=(a)^=(b)
 
 

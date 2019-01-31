@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kipke\Desktop\Programming\merge_sort
+CMAKE_SOURCE_DIR = C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kipke\Desktop\Programming\merge_sort\build
+CMAKE_BINARY_DIR = C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\Desktop\Programming\merge_sort\build\CMakeFiles C:\Users\kipke\Desktop\Programming\merge_sort\build\CMakeFiles\progress.marks
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\Desktop\Programming\merge_sort\build\CMakeFiles 0
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build\CMakeFiles C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build\CMakeFiles\progress.marks
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -96,17 +96,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -141,7 +141,7 @@ src/merge_sort.obj: src/merge_sort.c.obj
 
 # target to build an object file
 src/merge_sort.c.obj:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.obj
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.obj
 .PHONY : src/merge_sort.c.obj
 
 src/merge_sort.i: src/merge_sort.c.i
@@ -150,7 +150,7 @@ src/merge_sort.i: src/merge_sort.c.i
 
 # target to preprocess a source file
 src/merge_sort.c.i:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.i
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.i
 .PHONY : src/merge_sort.c.i
 
 src/merge_sort.s: src/merge_sort.c.s
@@ -159,7 +159,7 @@ src/merge_sort.s: src/merge_sort.c.s
 
 # target to generate assembly for a file
 src/merge_sort.c.s:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.s
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort.dir\build.make CMakeFiles/merge_sort.dir/src/merge_sort.c.s
 .PHONY : src/merge_sort.c.s
 
 test/merge_sort_test.obj: test/merge_sort_test.c.obj
@@ -168,7 +168,7 @@ test/merge_sort_test.obj: test/merge_sort_test.c.obj
 
 # target to build an object file
 test/merge_sort_test.c.obj:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.obj
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.obj
 .PHONY : test/merge_sort_test.c.obj
 
 test/merge_sort_test.i: test/merge_sort_test.c.i
@@ -177,7 +177,7 @@ test/merge_sort_test.i: test/merge_sort_test.c.i
 
 # target to preprocess a source file
 test/merge_sort_test.c.i:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.i
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.i
 .PHONY : test/merge_sort_test.c.i
 
 test/merge_sort_test.s: test/merge_sort_test.c.s
@@ -186,7 +186,7 @@ test/merge_sort_test.s: test/merge_sort_test.c.s
 
 # target to generate assembly for a file
 test/merge_sort_test.c.s:
-	cd /d c:\Users\kipke\Desktop\Programming\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.s
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\merge_sort\build && $(MAKE) -f CMakeFiles\merge_sort_test.dir\build.make CMakeFiles/merge_sort_test.dir/test/merge_sort_test.c.s
 .PHONY : test/merge_sort_test.c.s
 
 # Help Target

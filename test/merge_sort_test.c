@@ -14,11 +14,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#pragma comment(linker, "/STACK:2000000")
-#pragma comment(linker, "/HEAP:2000000")
 
 
-#define ARR_SIZE 10
+
 int arrVal[ARR_SIZE];
 
 
@@ -35,7 +33,7 @@ int main()
 srand(time(NULL));
 for(int i = 0; i<ARR_SIZE; i++)
     {   
-        arrVal[i] = rand()%10;
+        arrVal[i] = rand()%1000;
 
 
 
